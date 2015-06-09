@@ -32,6 +32,7 @@ RUN echo "==> Installing dependencies..." \
     --with-luajit \
     --with-pcre-jit \
     --with-ipv6 \
+    --with-http_auth_request_module \
     --with-http_ssl_module \
     --without-http_ssi_module \
     --without-http_userid_module \
